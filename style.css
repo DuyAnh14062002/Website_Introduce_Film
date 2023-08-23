@@ -561,6 +561,10 @@ header .navbar a:hover {
   .container-product .meaning-product{
     width: 500px;
   }
+  .container-product .meaning-product p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;}
   iframe{
     width: 100%;
     margin-bottom: 20px;
@@ -572,7 +576,7 @@ header .navbar a:hover {
     padding-top: 1rem;
   }
   .container-product .meaning-product{
-    height: 260px;
+    height: 160px;
   }
   .about{
     min-height: 85vh;
