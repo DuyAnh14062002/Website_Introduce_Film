@@ -24,7 +24,7 @@ $(document).ready(function () {
       {
         scrollTop: $($(this).attr("href")).offset().top,
       },
-      2000,
+      300,
       "linear"
     );
   });
