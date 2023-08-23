@@ -129,6 +129,9 @@ header .navbar a:hover {
 .home .bg-home{
   width: 48%;
 }
+.product{
+  min-height: 88vh;
+}
 .product .box-container {
   display: flex;
   align-items: center;
@@ -212,6 +215,9 @@ header .navbar a:hover {
 .container-product .meaning-product p{
    font-size: 28px;
 
+}
+.about{
+  padding-top: 2rem;
 }
 .about .row {
   display: flex;
@@ -521,7 +527,7 @@ header .navbar a:hover {
 
   section {
     padding: 0 3%;
-    padding-top: 9rem;
+    padding-top: 7rem;
     transition: all 0.3s ease-in;
   }
 
@@ -561,5 +567,20 @@ header .navbar a:hover {
   }
   .home .content{
     margin-top: 80px;
+  }
+  section {
+    padding-top: 1rem;
+  }
+  .container-product .meaning-product{
+    height: 260px;
+  }
+  .about{
+    min-height: 85vh;
+  }
+  .home{
+    min-height: 88vh;
+  }
+  .home .btn{
+    margin-bottom: 8px;
   }
 }
